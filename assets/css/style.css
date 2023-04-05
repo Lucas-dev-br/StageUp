@@ -30,7 +30,7 @@
   --light-gray: hsl(0, 0%, 80%);
   --mint-cream: #acefff;
   --cultured: hsl(0, 0%, 93%);
-  --go-green: hsl(145, 63%, 42%);
+  --go-green: #05626b;
   --white: hsl(0, 0%, 100%);
   --jet: hsl(0, 0%, 18%);
 
@@ -454,7 +454,8 @@ body {
 \*-----------------------------------*/
 
 .about .container {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -470,6 +471,7 @@ body {
   font-weight: var(--fw-600);
   padding-inline-start: 20px;
   line-height: 1.5;
+  margin-top: 15px;
 }
 
 .about-list .has-before:not(:last-child) { margin-block-end: 15px; }
