@@ -531,10 +531,15 @@ body {
 
 .service-card:is(:hover, :focus-within)::after { width: 100%; }
 
+.card-icon img{
+  border-radius: 100px;
+}
+
 .service-card .card-icon {
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 10px; 
+  
 }
 
 .service-card .img { transition: var(--transition-1); }
